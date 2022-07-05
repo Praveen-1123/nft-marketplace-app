@@ -1,0 +1,113 @@
+name: nft
+description: This is an NFT Marketplace where you can Mint, Buy and Sell your NFTs.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #ios_defaults
+  cupertino_icons: ^1.0.2
+
+  #themes (dark & light)
+  adaptive_theme: ^2.3.0
+
+  #navigations,dialogs,snackbars and bottomsheets
+  get: ^4.3.8
+
+  #get storage to store local data and listen
+  get_storage: ^2.0.3
+
+  #lottie animations
+  lottie: ^1.2.1
+
+  #state provider
+  provider: ^6.0.1
+
+  #shared preferences storage
+  shared_preferences: ^2.0.0
+
+  #toast message
+  fluttertoast: ^8.0.8
+
+  #validate annotation
+  meta: ^1.7.0
+
+  #BIP32
+  bip32: ^2.0.0
+
+  #Bip39
+  bip39: ^1.0.6
+
+  #web3 support
+  web3dart: ^2.3.3
+
+  #launches url in browser
+  url_launcher: ^6.0.17
+
+  #encryption & decryption
+  encrypt: ^5.0.1
+
+  #tuple
+  tuple: ^2.0.0
+
+  #crypto
+  crypto: ^3.0.1
+  
+  #basic animations
+  animate_do: ^2.0.0
+  
+  #loading animation
+  flutter_spinkit: ^5.1.0
+  
+  #google style nav bar
+  google_nav_bar: ^5.0.5
+  
+  #thin line icons
+  line_icons: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/nft-main.png"  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/common/
+    - assets/lottie/
+    - assets/icons/
+    - assets/logo/
+
+  fonts:
+    - family: "Poppins"
+      fonts:
+        - asset: fonts/poppins/Poppins-Regular.ttf
+        - asset: fonts/poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: fonts/poppins/Poppins-Bold.ttf
+          weight: 900
+
+    - family: "Cinzel"
+      fonts:
+        - asset: fonts/cinzel/Cinzel-Regular.ttf
+        - asset: fonts/cinzel/Cinzel-Bold.ttf
+          weight: 700
+
+    - family: "Orbitron"
+      fonts:
+        - asset: fonts/orbitron/Orbitron-Regular.ttf
+        - asset: fonts/orbitron/Orbitron-Medium.ttf
+        - asset: fonts/orbitron/Orbitron-Bold.ttf
+          weight: 400
