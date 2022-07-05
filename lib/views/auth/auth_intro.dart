@@ -4,8 +4,8 @@ import 'package:animate_do/animate_do.dart';
 import 'package:lottie/lottie.dart';
 import 'package:nft/constants/gradients.dart';
 import 'package:nft/constants/strings.dart';
-import 'package:nft/views/auth/Import_seed.dart';
-import 'package:nft/views/auth/import_privatekey.dart';
+import 'package:nft/views/auth/signin_screen.dart';
+import 'package:nft/views/auth/signup_screen.dart';
 import 'package:nft/widgets/buttons/gradient_button.dart';
 import 'package:nft/widgets/navigation_anim/fade.dart';
 import 'package:flutter/material.dart';
@@ -88,7 +88,7 @@ class _AuthIntroScreenState extends State<AuthIntroScreen> {
                 child: GradientButton(
                   text: "Sign In",
                   onTap: () async {
-                    Navigator.push(context, FadeRoute(page: ImportSeed()));
+                    Navigator.push(context, FadeRoute(page: SignInScreen()));
                   },
                 ),
               ),
@@ -98,8 +98,7 @@ class _AuthIntroScreenState extends State<AuthIntroScreen> {
                 child: GradientButton(
                   text: "Sign Up",
                   onTap: () async {
-                    Navigator.push(
-                        context, FadeRoute(page: ImportPrivatekey()));
+                    Navigator.push(context, FadeRoute(page: SignUpScreen()));
                   },
                 ),
               ),

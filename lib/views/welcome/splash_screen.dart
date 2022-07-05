@@ -1,8 +1,8 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:nft/constants/colors.dart';
 import 'package:nft/constants/strings.dart';
-import 'package:nft/services/auth/auth_services.dart';
 import 'package:flutter/material.dart';
+import 'package:nft/services/auth/auth_services_v2.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key key}) : super(key: key);
@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     Future.delayed(Duration(seconds: 3), () {
-      AuthServices().checkAuthState(context);
+      AuthServicesV2().checkAuthState(context);
     });
     super.initState();
   }

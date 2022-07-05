@@ -1,4 +1,4 @@
-import 'package:nft/utils/themes/themes_helper.dart';
+import 'package:nft/services/auth/auth_services_v2.dart';
 import 'package:flutter/material.dart';
 
 class MainChatPage extends StatefulWidget {
@@ -16,7 +16,7 @@ class _MainChatPageState extends State<MainChatPage> {
       body: Center(
         child: GestureDetector(
           onTap: () {
-            ThemesHelper().toggleTheme(context);
+            AuthServicesV2().signOut(context);
           },
           child: Text(
             "Chats",

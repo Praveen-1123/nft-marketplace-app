@@ -40,7 +40,7 @@ class _MainBottomBarState extends State<MainBottomBar> {
           tabBorderRadius: 15,
           selectedIndex: _index,
           curve: Curves.decelerate,
-          activeColor: theme.canvasColor,
+          activeColor: theme.primaryColor,
           tabBackgroundColor: theme.cardColor,
           duration: Duration(milliseconds: 200),
           color: theme.canvasColor.withOpacity(0.7),

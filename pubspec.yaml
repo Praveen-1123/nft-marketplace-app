@@ -70,6 +70,9 @@ dependencies:
   #thin line icons
   line_icons: ^2.0.1
 
+  #otp verification ui and configs
+  flutter_verification_code: ^1.1.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

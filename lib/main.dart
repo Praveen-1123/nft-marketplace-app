@@ -3,8 +3,8 @@ import 'package:nft/utils/themes/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:nft/views/welcome/splash_screen.dart';
 import 'constants/strings.dart';
-import 'views/welcome/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
