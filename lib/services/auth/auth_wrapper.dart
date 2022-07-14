@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nft/constants/strings.dart';
 import 'package:nft/helpers/toast.dart';
 import 'package:nft/utils/loading_screen.dart';
-import 'package:nft/views/tabbar_views/main_navbar.dart';
+import 'package:nft/views/welcome/main_navbar.dart';
 import 'package:nft/views/welcome/splash_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

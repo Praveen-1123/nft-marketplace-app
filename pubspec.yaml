@@ -73,6 +73,15 @@ dependencies:
   #otp verification ui and configs
   flutter_verification_code: ^1.1.1
 
+  #parse timestamp to timeago
+  timeago: ^3.1.0
+
+  #to cache images
+  cached_network_image: ^3.2.0
+
+  #to view name letters on profile image
+  flutter_profile_picture: ^2.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

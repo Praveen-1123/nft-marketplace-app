@@ -4,7 +4,7 @@ import 'package:nft/services/localstorage/getx_storage.dart';
 import 'package:nft/services/localstorage/shared_references.dart';
 import 'package:nft/utils/snackbar.dart';
 import 'package:nft/views/auth/verify_email.dart';
-import 'package:nft/views/tabbar_views/main_navbar.dart';
+import 'package:nft/views/welcome/main_navbar.dart';
 import 'package:nft/views/welcome/intro_screen.dart';
 import 'package:nft/widgets/navigation_anim/fade.dart';
 import 'package:flutter/material.dart';

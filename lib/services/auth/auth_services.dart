@@ -3,7 +3,7 @@ import 'package:nft/services/api/blockchain_api.dart';
 import 'package:nft/services/localstorage/getx_storage.dart';
 import 'package:nft/services/others/encrypt_decrypt.dart';
 import 'package:nft/utils/snackbar.dart';
-import 'package:nft/views/tabbar_views/main_navbar.dart';
+import 'package:nft/views/welcome/main_navbar.dart';
 import 'package:nft/views/welcome/intro_screen.dart';
 import 'package:nft/widgets/navigation_anim/fade.dart';
 import 'package:nft/widgets/navigation_anim/size_transition.dart';

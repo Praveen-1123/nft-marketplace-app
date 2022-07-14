@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
-import 'package:nft/views/tabbar_views/tab1_nft.dart';
-import 'package:nft/views/tabbar_views/tab2_chat.dart';
-import 'package:nft/views/tabbar_views/tab3_social.dart';
-import 'package:nft/views/tabbar_views/tab4_wallet.dart';
-import 'package:nft/views/tabbar_views/tab5_profile.dart';
+import 'package:nft/views/nfts/nft_main_view.dart';
+import 'package:nft/views/chats/chat_main_view.dart';
+import 'package:nft/views/social/social_main_view.dart';
+import 'package:nft/views/wallet/wallet_main_view.dart';
+import 'package:nft/views/profile/profile_main_view.dart';
 
 class MainBottomBar extends StatefulWidget {
   const MainBottomBar({Key key}) : super(key: key);
